@@ -1,0 +1,22 @@
+.top {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: baseline; 
+    background-color: rgba(22, 45, 255, 0.353); 
+    color:#ffffff; 
+    backdrop-filter: blur(10px); 
+    border-radius: 16px; 
+    padding: 16px;
+}
+
+.topISSHUNT {
+    font-family: 'Tektur', sans-serif; 
+    font-size: 25px; 
+    padding-left: 50px;
+}
+
+.topTIME {
+    text-align: right; 
+    justify-content: flex-end; 
+    font-family: 'Rubik', sans-serif;
+}
