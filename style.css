@@ -32,6 +32,14 @@
     transform: translate(-50%, -50%);
     display: flex;
 }
+
+.Xbutton {
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .doneButton { 
     cursor: pointer; 
     color: #ffffff; 
