@@ -31,9 +31,10 @@
     top: 20%; 
     left: 120%; 
     transform: translate(-50%, -50%);
+    transition: 150ms ease-in-out; 
 }
 .doneButton:hover {
     scale: 1.2;
-    color: rgba(22, 45, 255, 0.567);
+    color: rgb(109, 123, 255);
     text-shadow: 1px 1px 20px rgb(255, 255, 255);
 }
