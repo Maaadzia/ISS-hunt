@@ -40,6 +40,26 @@
     justify-content: flex-end;
 }
 
+.polandWindow {
+    padding: 16px;
+    color: #ffffff;  
+    position: absolute; 
+    top: 55%; 
+    left: 25%; 
+    transform: translate(-50%, -50%);
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    border-width: 2px;
+}
+
+.polandWindowText {
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    padding: 4px;
+    margin: 4px;
+}
+
 .doneButton { 
     cursor: pointer; 
     color: #ffffff; 
