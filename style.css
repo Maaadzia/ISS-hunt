@@ -23,9 +23,80 @@
 
 .ISSimage {
     position: absolute;
-    top: 80%; 
-    left: 80%; 
-    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    z-index: 9999;
+
+    animation: ISSanimation 10s linear infinite;
+}
+
+@keyframes ISSanimation {
+    0% {
+    top: 5vh;
+    left: 75vw;
+    transform: scaleX(1)
+    }
+    10% {
+    top: 5vh;
+    left: 25vw;
+    transform: scaleX(1)
+    }
+    20% {
+    top: 10vh;
+    left: 10vw;
+    transform: scaleX(1)
+    }
+    25% {
+    top: 12vh;
+    left: 5vw;
+    transform: scaleX(1)
+    }
+    30% {
+    top: 40vh;
+    left: 5vw;
+    transform: scaleX(1)
+    }
+    35% {
+    top: 80vh;
+    left: 5vw;
+    transform: scaleX(1)
+    }
+    40% {
+    top: 75vh;
+    left: 25vw;
+    transform: scaleX(1)
+    }
+    50% {
+    top: 70vh;
+    left: 50vw;
+    transform: scaleX(1)
+    }
+    60% {
+    top: 75vh;
+    left: 75vw;
+    transform: scaleX(1)
+    }
+    70% {
+    top: 80vh;
+    left: 85vw;
+    transform: scaleX(1)
+    }
+    80% {
+    top: 80vh;
+    left: 85vw;
+    transform: scaleX(1)
+    }
+    90% {
+    top: 60vh;
+    left: 90vw;
+    transform: scaleX(1)
+    }
+    100% {
+    top: 5vh;
+    left: 75vw;
+    transform: scaleX(1)
+    }
+
 }
 
 .countries {
