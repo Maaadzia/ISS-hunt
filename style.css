@@ -21,6 +21,13 @@
     font-family: 'Rubik', sans-serif;
 }
 
+.ISSimage {
+    position: absolute;
+    top: 80%; 
+    left: 80%; 
+    transform: translate(-50%, -50%);
+}
+
 .countries {
     color: #ffffff; 
     font-size: 20px; 
