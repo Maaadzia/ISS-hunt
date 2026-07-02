@@ -89,16 +89,6 @@
 
 }
 
-.texthelp {
-    top: 30vh;
-    left: 5vw;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    font-family: 'Rubik', sans-serif; 
-    font-size: 20px; 
-    color: #ffffff;
-}
-
 .countries {
     color: #ffffff; 
     font-size: 20px; 
