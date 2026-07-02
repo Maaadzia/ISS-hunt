@@ -29,24 +29,4 @@ setInterval(updateTime, 1000);
 //  openWindow(poland);
 //});
 
-const countrySelect = document.getElementById("#countrySelect");
-const doneButton = document.getElementById("#doneButton");
 
-doneButton.addEventListener("click", function() {
-    const selectedCountry = countrySelect.value;
-
-
-    document.getElementById("polandwindow").style.display = "none";
-    document.getElementById("ukwindow").style.display = "none";
-    document.getElementById("germanywindow").style.display = "none";
-
-
-if (selectedCountry === "poland") {
-        document.getElementById("polandwindow").style.display = "block";
-    } else if (selectedCountry === "uk") {
-        document.getElementById("ukwindow").style.display = "block";
-    } else if (selectedCountry === "germany") {
-        document.getElementById("germanywindow").style.display = "block";
-    }
-
-  });
