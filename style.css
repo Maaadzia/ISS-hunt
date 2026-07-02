@@ -27,7 +27,7 @@
     height: 100px;
     z-index: 9999;
 
-    animation: ISSanimation 10s linear infinite;
+    animation: ISSanimation 30s linear infinite;
 }
 
 @keyframes ISSanimation {
@@ -38,56 +38,46 @@
     }
     10% {
     top: 5vh;
-    left: 25vw;
+    left: 50vw;
     transform: scaleX(1)
     }
     20% {
-    top: 10vh;
-    left: 10vw;
-    transform: scaleX(1)
-    }
-    25% {
-    top: 12vh;
-    left: 5vw;
+    top: 5vh;
+    left: 25vw;
     transform: scaleX(1)
     }
     30% {
-    top: 40vh;
-    left: 5vw;
-    transform: scaleX(1)
-    }
-    35% {
-    top: 80vh;
+    top: 30vh;
     left: 5vw;
     transform: scaleX(1)
     }
     40% {
     top: 75vh;
-    left: 25vw;
-    transform: scaleX(1)
+    left: 5vw;
+    transform: scaleX(-1)
     }
     50% {
-    top: 70vh;
-    left: 50vw;
-    transform: scaleX(1)
+    top: 85vh;
+    left: 25vw;
+    transform: scaleX(-1)
     }
     60% {
-    top: 75vh;
-    left: 75vw;
-    transform: scaleX(1)
+    top: 85vh;
+    left: 50vw;
+    transform: scaleX(-1)
     }
     70% {
-    top: 80vh;
-    left: 85vw;
-    transform: scaleX(1)
+    top: 85vh;
+    left: 75vw;
+    transform: scaleX(-1)
     }
     80% {
-    top: 80vh;
-    left: 85vw;
-    transform: scaleX(1)
+    top: 70vh;
+    left: 90vw;
+    transform: scaleX(-1)
     }
     90% {
-    top: 60vh;
+    top: 30vh;
     left: 90vw;
     transform: scaleX(1)
     }
@@ -100,8 +90,8 @@
 }
 
 .texthelp {
-    top: 10vh;
-    left: 50vw;
+    top: 30vh;
+    left: 5vw;
     position: absolute;
     transform: translate(-50%, -50%);
     font-family: 'Rubik', sans-serif; 
