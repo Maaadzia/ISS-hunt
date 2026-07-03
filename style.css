@@ -51,6 +51,11 @@
     left: 5vw;
     transform: scaleX(1)
     }
+    39% {
+    top: 73vh;
+    left: 5vw;
+    transform: scaleX(1)
+    }
     40% {
     top: 75vh;
     left: 5vw;
@@ -75,6 +80,11 @@
     top: 70vh;
     left: 90vw;
     transform: scaleX(-1)
+    }
+    81% {
+    top: 68vh;
+    left: 90vw;
+    transform: scaleX(1)
     }
     90% {
     top: 30vh;
