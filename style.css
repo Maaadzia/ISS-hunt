@@ -157,12 +157,22 @@
     text-shadow: 1px 1px 20px rgb(255, 255, 255);
 }
 
+.windowheader {
+    cursor: move; 
+    background-color: rgba(22, 45, 255, 0.353); 
+    color:#ffffff; 
+    backdrop-filter: blur(10px); 
+    border-radius: 16px; 
+    padding: 16px;
+}
+
 .ISSinfoApp {
     padding-top: 64px; 
     padding-left: 1200px;
+    cursor: pointer;
 }
 
-.ISSinfoAppStyle {
+.ISSinfoAppWindow {
     border: solid; 
     color:#ffffff; 
     border-radius: 16px; 
@@ -172,4 +182,11 @@
     left: 50%; 
     transform: translate(-50%, -50%);
     backdrop-filter: blur(3px);
+}
+
+.XButton {
+    text-align: right; 
+    cursor: pointer; 
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
 }
