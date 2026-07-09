@@ -79,7 +79,13 @@ function dragElement(elmnt) {
   }
 }
 
+var ISSinfoAppWindowScreen = document.querySelector("#ISSinfoAppWindow")
 
+var ISSinfoAppWindowScreenClose = document.querySelector("#ISSinfoAppWindowclose")
+
+ISSinfoAppWindowScreenClose.addEventListener("click", function() {
+  closeWindow(ISSinfoAppWindowScreen);
+});
 
 //issinfoapp open close
 
