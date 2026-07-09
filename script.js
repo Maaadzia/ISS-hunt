@@ -36,6 +36,8 @@ function openWindow(element) {
   element.style.display = "flex"
 }
 
+dragElement(document.querySelector("#ISSinfoAppWindow"))
+
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id + "header")) {
@@ -91,4 +93,13 @@ function selectIcon(element) {
 function deselectIcon(element) {
   element.classList.remove("selected");
   selectedIcon = undefined
+}
+
+function handleIconTap(element) {
+  if (element.classList.contains("selected")) {
+    deselectIcon(element)
+    openWindow(ISSinfoAppWindow)
+  } else {
+    selectIcon(element)
+  }
 }
