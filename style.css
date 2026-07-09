@@ -156,3 +156,8 @@
     color: rgb(109, 123, 255);
     text-shadow: 1px 1px 20px rgb(255, 255, 255);
 }
+
+.ISSinfoApp {
+    padding-top: 64px; 
+    padding-left: 1200px;
+}
