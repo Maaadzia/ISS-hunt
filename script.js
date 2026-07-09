@@ -29,6 +29,13 @@ setInterval(updateTime, 1000);
 //  openWindow(poland);
 //});
 
+function closeWindow(element) {
+  element.style.display = "none"
+}
+function openWindow(element) {
+  element.style.display = "flex"
+}
+
 
 
 
