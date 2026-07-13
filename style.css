@@ -164,6 +164,8 @@
     backdrop-filter: blur(10px); 
     border-radius: 16px; 
     padding: 16px;
+    justify-content: space-between;
+    display: flex;
 }
 
 .ISSinfoApp {
@@ -189,4 +191,9 @@
     cursor: pointer; 
     font-family: 'Rubik', sans-serif;
     color: #ffffff;
+}
+
+.text {
+    font-family: 'Rubik', sans-serif;
+    color : #ffffff;
 }

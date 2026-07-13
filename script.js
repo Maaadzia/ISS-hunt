@@ -87,7 +87,6 @@ ISSinfoAppWindowScreenClose.addEventListener("click", function() {
   closeWindow(ISSinfoAppWindowScreen);
 });
 
-//issinfoapp open close
 
 var selectedIcon = undefined
 
@@ -95,7 +94,6 @@ function selectIcon(element) {
   element.classList.add("selected");
   selectedIcon = element
 } 
-
 function deselectIcon(element) {
   element.classList.remove("selected");
   selectedIcon = undefined
