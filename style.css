@@ -206,3 +206,21 @@
     font-family: 'Rubik', sans-serif;
     color : #ffffff;
 }
+
+.bottomApps {
+    background-color: rgba(22, 45, 255, 0.223); 
+    color:#ffffff; 
+    backdrop-filter: blur(10px); 
+    border-radius: 16px;
+    padding: 16px;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    flex-direction: row;
+}
