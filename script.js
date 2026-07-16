@@ -107,3 +107,11 @@ function handleIconTap(element) {
     selectIcon(element)
   }
 }
+
+var biggestIndex = 1;
+function addWindowTapHandling(element) {
+  element.addEventListener("mousedown", () =>
+    handleWindowTap(element)
+  )
+}
+addWindowTapHandling(ISSinfoAppWindowScreen)
