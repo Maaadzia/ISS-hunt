@@ -1,6 +1,25 @@
 body {
     background-color: rgb(15, 29, 51);
     background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    cursor: default;
+    position: absolute;
+    background-color: rgb(27, 41, 65);
+    height: 300px;
+    width: 150%;
+    box-shadow: -75px 100px 80px rgb(27, 41, 65);
+}
+
+.header p {
+    font-family: 'Tektur', sans-serif; 
+    font-size: 100px; 
+    color: #fff;
+    font-weight: bold;
+    margin-left: 50px;
 }
 
 
@@ -156,8 +175,8 @@ body {
 
 .ISSimage {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     z-index: 9999;
 
     animation: ISSanimation 30s linear infinite;
