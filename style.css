@@ -3,6 +3,8 @@ body {
     background-size: cover;
 }
 
+
+/* Old classes - maybe they'll be helpful bc I'm styaing in the same design style 
 .top {
     display: flex; 
     justify-content: space-between; 
@@ -33,85 +35,7 @@ body {
     text-align: right; 
     justify-content: flex-end; 
     font-family: 'Rubik', sans-serif;
-}
-
-.ISSimage {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    z-index: 9999;
-
-    animation: ISSanimation 30s linear infinite;
-}
-
-@keyframes ISSanimation {
-    0% {
-    top: 5vh;
-    left: 75vw;
-    transform: scaleX(1)
-    }
-    10% {
-    top: 5vh;
-    left: 50vw;
-    transform: scaleX(1)
-    }
-    20% {
-    top: 5vh;
-    left: 25vw;
-    transform: scaleX(1)
-    }
-    30% {
-    top: 30vh;
-    left: 5vw;
-    transform: scaleX(1)
-    }
-    39% {
-    top: 73vh;
-    left: 5vw;
-    transform: scaleX(1)
-    }
-    40% {
-    top: 75vh;
-    left: 5vw;
-    transform: scaleX(-1)
-    }
-    50% {
-    top: 85vh;
-    left: 25vw;
-    transform: scaleX(-1)
-    }
-    60% {
-    top: 85vh;
-    left: 50vw;
-    transform: scaleX(-1)
-    }
-    70% {
-    top: 85vh;
-    left: 75vw;
-    transform: scaleX(-1)
-    }
-    80% {
-    top: 70vh;
-    left: 90vw;
-    transform: scaleX(-1)
-    }
-    81% {
-    top: 68vh;
-    left: 90vw;
-    transform: scaleX(1)
-    }
-    90% {
-    top: 30vh;
-    left: 90vw;
-    transform: scaleX(1)
-    }
-    100% {
-    top: 5vh;
-    left: 75vw;
-    transform: scaleX(1)
-    }
-
-}
+} 
 
 .countries {
     color: #ffffff; 
@@ -228,4 +152,82 @@ body {
     align-items: center;
     position: fixed;
     flex-direction: row;
+} */
+
+.ISSimage {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 9999;
+
+    animation: ISSanimation 30s linear infinite;
+}
+
+@keyframes ISSanimation {
+    0% {
+    top: 5vh;
+    left: 75vw;
+    transform: scaleX(1)
+    }
+    10% {
+    top: 5vh;
+    left: 50vw;
+    transform: scaleX(1)
+    }
+    20% {
+    top: 5vh;
+    left: 25vw;
+    transform: scaleX(1)
+    }
+    30% {
+    top: 30vh;
+    left: 5vw;
+    transform: scaleX(1)
+    }
+    39% {
+    top: 73vh;
+    left: 5vw;
+    transform: scaleX(1)
+    }
+    40% {
+    top: 75vh;
+    left: 5vw;
+    transform: scaleX(-1)
+    }
+    50% {
+    top: 85vh;
+    left: 25vw;
+    transform: scaleX(-1)
+    }
+    60% {
+    top: 85vh;
+    left: 50vw;
+    transform: scaleX(-1)
+    }
+    70% {
+    top: 85vh;
+    left: 75vw;
+    transform: scaleX(-1)
+    }
+    80% {
+    top: 70vh;
+    left: 90vw;
+    transform: scaleX(-1)
+    }
+    81% {
+    top: 68vh;
+    left: 90vw;
+    transform: scaleX(1)
+    }
+    90% {
+    top: 30vh;
+    left: 90vw;
+    transform: scaleX(1)
+    }
+    100% {
+    top: 5vh;
+    left: 75vw;
+    transform: scaleX(1)
+    }
+
 }
