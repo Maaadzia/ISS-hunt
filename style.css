@@ -7,19 +7,53 @@ body {
 
 .header {
     cursor: default;
-    position: absolute;
+    position: fixed;
     background-color: rgb(27, 41, 65);
-    height: 300px;
     width: 150%;
-    box-shadow: -75px 100px 80px rgb(27, 41, 65);
+    height: 100px;
+    box-shadow: 0px 0px 0px rgb(27, 41, 65);
+    animation: headerA linear;
+    animation-timeline: view();
+    animation-range-start: 0%; 
+    animation-range-end: 150%;
 }
 
 .header p {
     font-family: 'Tektur', sans-serif; 
-    font-size: 100px; 
+    font-size: 50px; 
     color: #fff;
     font-weight: bold;
-    margin-left: 50px;
+    left: 30%;
+    margin-top: 20px;
+    position: absolute;
+    animation: headerB linear;
+    animation-timeline: view();
+    animation-range-start: 0%; 
+    animation-range-end: 150%;
+}
+
+@keyframes headerA {
+    from {
+        height: 500px;
+        box-shadow: -75px 100px 80px rgb(27, 41, 65);
+    }
+    to {
+        height: 100px;
+        box-shadow: 0px 0px 0px rgb(27, 41, 65);
+    }
+}
+
+@keyframes headerB {
+    from {
+        font-size: 150px; 
+        left: -20%;
+        margin-top: 8%
+    }
+    to {
+        font-size: 50px; 
+        left: 30%;
+        margin-top: 20px;
+    }
 }
 
 
