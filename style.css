@@ -102,6 +102,99 @@ body {
     }
 }
 
+.startText {
+    font-family: "Zeyada", cursive;
+    position: fixed; 
+    margin-top: 450px;
+    margin-left: 30%;
+    color: white;
+    font-size: 80px;
+    cursor: default;
+    animation: startVoyage linear;
+    animation-timeline: view();
+    animation-range-start: 0%; 
+    animation-range-end: 550px;
+    opacity: 0;
+}
+
+@keyframes startVoyage {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.scrollText {
+    font-family: 'Rubik', sans-serif;
+    position: fixed; 
+    margin-top: 590px;
+    color: white;
+    font-size: 30px;
+    cursor: default;
+    opacity: 0;
+    animation: hop1 ease-in-out infinite 3s, hopsEnd;
+    animation-timeline: auto, view();
+    animation-range-start: normal, 0%; 
+    animation-range-end: normal, 550px;
+    transition: 200ms
+}
+
+.arrow {
+    position: fixed;
+    margin-top: 625px;
+    animation: hop2 ease-in-out infinite 3s, hopsEnd;
+    opacity: 0;
+    animation-timeline: auto, view();
+    animation-range-start: normal, 0%; 
+    animation-range-end: normal, 500px;
+}
+
+.scrollText:hover {
+    scale: 1.05;
+    box-shadow: 10px 10px 100px rgb(27, 41, 65);
+}
+
+@keyframes hop1 {
+    0% {
+        margin-top: 590px;
+    }
+    50% {
+        margin-top: 610px;
+    }
+    100% {
+        margin-top: 590px;
+    }
+}
+
+@keyframes hop2 {
+    0% {
+        margin-top: 625px;
+    }
+    50% {
+        margin-top: 645px;
+    }
+    100% {
+        margin-top: 625px;
+    }
+}
+
+@keyframes hopsEnd {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 
 /* Old classes - maybe they'll be helpful bc I'm styaing in the same design style 
 .top {
