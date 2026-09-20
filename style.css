@@ -5,6 +5,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     cursor: default;
     position: fixed;
@@ -193,6 +197,32 @@ body {
     100% {
         opacity: 0;
     }
+}
+
+/* sections */
+
+section {
+    height: 100vh;
+}
+
+#About {
+    background-color: pink;
+}
+
+#Education {
+    background-color: palevioletred;
+}
+
+#Guide {
+    background-color: plum;
+}
+
+#Astronauts {
+    background-color: mediumvioletred;
+}
+
+#Socials {
+    background-color: violet;
 }
 
 
