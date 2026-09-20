@@ -18,7 +18,7 @@ body {
     animation-range-end: 150%;
 }
 
-.header p {
+.headerTitle {
     font-family: 'Tektur', sans-serif; 
     font-size: 50px; 
     color: #fff;
@@ -30,6 +30,33 @@ body {
     animation-timeline: view();
     animation-range-start: 0%; 
     animation-range-end: 150%;
+}
+
+.headerSegments {
+    justify-content: space-around; 
+    text-align: right; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 55%;
+    margin-top: 90px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    animation: headerC linear;
+    animation-timeline: view();
+    animation-range-start: 0%; 
+    animation-range-end: 150%;
+    opacity: 0
+}
+
+.headerSegments a {
+    color: #ffffff;
+    transition: 200ms
+}
+
+.headerSegments a:hover {
+    color: pink;
+    scale: 1.05
 }
 
 @keyframes headerA {
@@ -53,6 +80,25 @@ body {
         font-size: 50px; 
         left: 30%;
         margin-top: 20px;
+    }
+}
+
+@keyframes headerC {
+    0% {
+        opacity: 1;
+        margin-top: 90px;
+    }
+    50% {
+        opacity: 1;
+        margin-top: 90px;
+    }
+    90% {
+        opacity: 0;
+        margin-top: -20px;
+    }
+    100% {
+        opacity: 0;
+        margin-top: -20px;
     }
 }
 
