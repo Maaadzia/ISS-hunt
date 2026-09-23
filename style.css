@@ -9,17 +9,33 @@ html {
     scroll-behavior: smooth;
 }
 
+h1 {
+    position: relative;
+    margin-left: 5vh;
+    font-family: 'Tektur', sans-serif; 
+    color: #ffffff;
+    font-size: 50px
+}
+
+.basicText {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: justify;
+    margin: 2vh;
+}
+
 .header {
     cursor: default;
     position: fixed;
     background-color: rgb(27, 41, 65);
     width: 150%;
-    height: 100px;
+    height: 13vh;
     box-shadow: 0px 0px 0px rgb(27, 41, 65);
     animation: headerA linear;
     animation-timeline: view();
     animation-range-start: 0%; 
     animation-range-end: 150%;
+    z-index: 90;
 }
 
 .headerTitle {
@@ -34,6 +50,7 @@ html {
     animation-timeline: view();
     animation-range-start: 0%; 
     animation-range-end: 150%;
+    z-index: 100;
 }
 
 .headerSegments {
@@ -50,7 +67,8 @@ html {
     animation-timeline: view();
     animation-range-start: 0%; 
     animation-range-end: 150%;
-    opacity: 0
+    opacity: 0;
+    z-index: 100;
 }
 
 .headerSegments a {
@@ -202,7 +220,7 @@ html {
 /* sections */
 
 section {
-    height: 100vh;
+    height: 87vh;
 }
 
 #About {
@@ -223,6 +241,27 @@ section {
 
 #Socials {
     background-color: violet;
+}
+
+.imgsAstronauts {
+    height: 100px;
+    width: 100px;
+    border-radius: 5%;
+    margin: 2vh;
+    position: relative;
+}
+
+.imgsAstronautsScroll {
+    animation: imgScroll linear;
+    animation-timeline: scroll();
+    animation-range-start: 0px; 
+    animation-range-end: 100%;
+}
+
+@keyframes imgScroll {
+    to {
+        transform: translate(calc(-50% - 0.5rem))
+    }
 }
 
 
