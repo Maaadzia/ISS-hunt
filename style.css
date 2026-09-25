@@ -233,7 +233,7 @@ section {
 }
 
 #Guide {
-    background-color: plum;
+    background-color: rgb(15, 29, 51);
 }
 
 #Astronauts {
@@ -291,6 +291,44 @@ section {
     }
 }
 
+.stepsAnimation {
+    animation: steps 500ms linear;
+    animation-timeline: view();
+    animation-range-start: 0px; 
+    animation-range-end: 300px;
+}
+
+@keyframes steps {
+    0% {
+        color:white
+    }
+    50% {
+        color:aqua
+    }
+    100% {
+        color:white
+    }
+}
+
+.textSlide {
+    animation: slide 500ms ease-in-out;
+    animation-timeline: view();
+    animation-range-start: 0px; 
+    animation-range-end: 300px;
+}
+
+@keyframes slide {
+    from {
+        opacity: 0.5;
+        scale: 0.8;
+        margin-left: 50vh
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+        margin-left: 1vh
+    }
+}
 
 /* Old classes - maybe they'll be helpful bc I'm styaing in the same design style 
 .top {
