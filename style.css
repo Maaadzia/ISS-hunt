@@ -25,6 +25,30 @@ h1 {
     font-family: 'Rubik', sans-serif;
 }
 
+.linkText {
+    color:aqua;
+    font-size: 28px;
+    text-align: justify;
+    margin: 2vh;
+    padding: 3vh;
+    font-family: 'Tektur', sans-serif; 
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 15vh;
+    transition: 500ms
+}
+
+.linkText:hover {
+    color:#ffffff;
+    padding: 5vh;
+    font-size: 32px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-top: 13vh;
+}
+
 .header {
     cursor: default;
     position: fixed;
@@ -225,11 +249,11 @@ section {
 }
 
 #About {
-    background-color: pink;
+    background-color: rgb(15, 29, 51);
 }
 
 #Education {
-    background-color: palevioletred;
+    background-color: rgb(15, 29, 51);
 }
 
 #Guide {
@@ -291,6 +315,24 @@ section {
     }
 }
 
+.buttonAnimation {
+    animation: btn 200ms linear;
+    animation-timeline: view();
+    animation-range-start: 0px; 
+    animation-range-end: 200px;
+}
+
+@keyframes btn {
+    from {
+        opacity: 0;
+        scale: 0.8;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
 .stepsAnimation {
     animation: steps 500ms linear;
     animation-timeline: view();
@@ -328,6 +370,59 @@ section {
     to {
         opacity: 1;
         margin-left: 1vh
+    }
+}
+
+.imgSlide {
+    animation: imgslide 500ms ease-in-out;
+    animation-timeline: view();
+    animation-range-start: -300px; 
+    animation-range-end: 500px;
+}
+
+@keyframes imgslide {
+    0% {
+        opacity: 0.7;
+        top: -40vh;
+    }
+    100% {
+        top: 0
+    }
+}
+
+.textShadow {
+    animation: shadow 500ms ease-in-out;
+    animation-timeline: view();
+    animation-range-start: 0px; 
+    animation-range-end: 200px;
+}
+
+@keyframes shadow {
+    from {
+        opacity: 0.7;
+        scale: 0.9
+    }
+    to {
+        opacity: 1;
+        scale: 1
+    }
+}
+
+.youtubeVideosAnimation {
+    animation: yt 500ms ease-in-out;
+    animation-timeline: view();
+    animation-range-start: 0px; 
+    animation-range-end: 300px;
+}
+
+@keyframes yt {
+    0% {
+        border-radius: 50px;
+        scale: 0.8;
+    }
+    100% {
+        border-radius: 5px;
+        scale: 1;
     }
 }
 
