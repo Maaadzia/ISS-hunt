@@ -274,6 +274,11 @@ section {
     border-radius: 5%;
     margin: 2vh;
     position: relative;
+    transition: 250ms;
+}
+
+.imgsAstronauts:hover {
+    scale: 1.1
 }
 
 .imgsAstronautsScroll {
