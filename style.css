@@ -426,6 +426,31 @@ section {
     }
 }
 
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 2vh
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(12, 23, 41);
+}
+
+::-webkit-scrollbar-thumb {
+    background:rgb(104, 125, 158);
+    border-top-left-radius: 100vw;
+    border-bottom-left-radius: 100vw;
+    border: .15em solid rgb(27, 41, 65);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:cyan;
+    border: .15em solid cyan
+}
+
+/* rgb(104, 125, 158),
+rgb(178, 199, 233) */
+
 /* Old classes - maybe they'll be helpful bc I'm styaing in the same design style 
 .top {
     display: flex; 
