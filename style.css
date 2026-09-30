@@ -102,7 +102,7 @@ h1 {
 }
 
 .headerSegments a:hover {
-    color: pink;
+    color: cyan;
     scale: 1.05
 }
 
