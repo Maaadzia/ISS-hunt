@@ -280,7 +280,7 @@ section {
     animation: imgScroll linear;
     animation-timeline: scroll();
     animation-range-start: 0px; 
-    animation-range-end: 100%;
+    animation-range-end: 120%;
 }
 
 @keyframes imgScroll {
