@@ -32,5 +32,4 @@ I used it eventually, when I wasn't able to find some tutorials on youtube. I'm 
 
 
 ## 
-Built for NASA stardance challange.
-<a href="https://stardance.hackclub.com/projects/19074">STARDANCE</a>
+<a href="https://stardance.hackclub.com/projects/19074">Built for NASA stardance challange.</a>
