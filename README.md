@@ -12,7 +12,7 @@ You'll find 5 sections:
 4. Astronauts - where you can get to know some astronauts
 5. Socials - they'll direct you to ISS's socials
 
-<stong> Besides, you'll find a lot of animations - enjoy them!
+<strong> Besides, you'll find a lot of animations - enjoy them!
 This site is meant to be fun, and I built so we can remember the ISS forever, as its retiring soon. </strong>
 
 ## Credits
