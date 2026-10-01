@@ -1,7 +1,7 @@
 # ISS-hunt
 The ISS hunt is a website about the ISS with a lot of cool animations, built with css.<br>
 <br>
-<img src="images/gif.gif" style="width: 500px; height: 500px">
+<img src="images/gif.gif" style="width: 350px; height: 350px; border-radius: 5px;">
 
 
 ## Features
