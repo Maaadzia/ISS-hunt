@@ -29,3 +29,8 @@ icons source: https://fonts.google.com/icons
 ## AI declaration
 It helped me with styling the cursor and it guided me on how to add more than one animation to class. No code generated.
 I used it eventually, when I wasn't able to find some tutorials on youtube. I'm a beginner in coding so please understand
+
+
+## 
+Built for NASA stardance challange.
+<a href="https://stardance.hackclub.com/projects/19074">STARDANCE</a>
