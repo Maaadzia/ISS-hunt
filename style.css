@@ -10,13 +10,12 @@ html {
 }
 
 * {
-    cursor: url('images/cyan\ star\ cursor.png'), auto;
+    cursor: url('images/cyan\ star\ cursor.png') 24 24, auto;
 }
 
 a,
-img,
-.link-style {
-  cursor: url('images/cyanstarcursor2.png'), pointer;
+img {
+  cursor: url('images/cyanstarcursor2.png') 24 24, pointer;
 }
 
 h1 {
