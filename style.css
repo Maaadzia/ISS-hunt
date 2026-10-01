@@ -9,6 +9,16 @@ html {
     scroll-behavior: smooth;
 }
 
+* {
+    cursor: url('images/cyan\ star\ cursor.png'), auto;
+}
+
+a,
+img,
+.link-style {
+  cursor: url('images/cyanstarcursor2.png'), pointer;
+}
+
 h1 {
     position: relative;
     margin-left: 5vh;
