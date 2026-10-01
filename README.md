@@ -1,7 +1,7 @@
 # ISS-hunt
-The ISS hunt is a website about the ISS with a lot of cool animations, built with css.<br>
+<strong>The ISS hunt is a website about the ISS with a lot of cool animations, built with css.</strong> <br>
 <br>
-<img src="images/gif.gif" style="width: 350px; height: 350px; border-radius: 5px;">
+<img src="images/gif.gif" style="width: 350px; height: 350px;">
 
 
 ## Features
@@ -12,6 +12,8 @@ You'll find 5 sections:
 4. Astronauts - where you can get to know some astronauts
 5. Socials - they'll direct you to ISS's socials
 
+Besides, you'll find a lot of animations - enjoy them!
+This site is meant to be fun, and I built so we can remember the ISS forever, as its retiring soon.
 
 ## Credits
 1. https://www.youtube.com/watch?v=3r2dDBW2Nn0 - smooth scrolling
