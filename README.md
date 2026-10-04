@@ -6,14 +6,14 @@
 
 ## Features
 You'll find 5 sections:
-1. About - basics about the ISS
-2. Education - where you can learn a little about the ISS and even watch a water experiment conducted here
+1. About - basics about the ISS and this site
+2. Education - where you can learn a little about the ISS and even watch a water experiment conducted on the ISS
 3. Guide - where you'll learn how to spot the ISS on your sky
 4. Astronauts - where you can get to know some astronauts
 5. Socials - they'll direct you to ISS's socials
 
 <strong> Besides, you'll find a lot of animations - enjoy them!
-This site is meant to be fun, and I built so we can remember the ISS forever, as its retiring soon. </strong>
+This site is meant to be fun, and I built it so we can remember the ISS forever, as its retiring soon. </strong>
 
 ## Credits
 1. https://www.youtube.com/watch?v=3r2dDBW2Nn0 - smooth scrolling
