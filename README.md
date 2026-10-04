@@ -4,6 +4,16 @@
 <img src="images/gif.gif" style="width: 350px; height: 350px;">
 
 
+## How to try
+
+Enter this link: https://maaadzia.github.io/ISS-hunt/
+
+or run localy:
+1. Clone repository <br>
+` git clone https://github.com/Maaadzia/ISS-hunt.git `
+2. Enter downloaded folder
+3. Open "index.html" in your browser
+
 ## Features
 You'll find 5 sections:
 1. About - basics about the ISS and this site
